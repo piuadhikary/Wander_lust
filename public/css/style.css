@@ -1,0 +1,118 @@
+body {
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+    }
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height : 5rem;
+    background-color: rgb(110, 161, 110);
+}
+
+.fa-won-sign{
+    color: rgb(28, 97, 28);
+    font-size: 2rem;
+}
+
+
+.nav-link {
+    color: #103711 !important;
+    margin-right: 1rem;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info-links,.f-info-brand , .f-info-socials {
+    width: 100%;
+    align-items: center;
+    display:flex;
+    justify-content:center ;
+}
+.f-info-socials {
+    font-size : 1.2rems;
+    
+    margin-right: 1rem;
+    
+}
+.f-info-socials i{
+    margin-right: 1rem;
+    display:flex;
+    align-items: space-evenly;
+}
+
+.f-info {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height : 6rems;
+    display:flex;
+    background-color: rgb(79, 122, 79);
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: space-evenly;
+
+}
+
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+
+}
+.card-body {
+    padding: 0 !important;
+    display:flex;
+}
+.card-text p {
+    font-weight: 400 !important;
+}
+.card-img-overlay {
+    opacity: 0;
+}
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: whitesmoke;
+}
+.listing-link {
+    text-decoration: none;
+}
+.add-btn {
+ background-color: rgb(86, 135, 86) !important;
+ border: none !important;
+}
+.edit-btn {
+    background-color: rgb(86, 135, 86) !important;
+    border: none !important;
+   }
+   .show-img {
+    height: 30hv;
+
+   }
+   .btns {
+    display: inline-flex;
+
+   }
+   .delete-btn {
+    background-color: rgb(215, 56, 56);
+   }
+   .show-card {
+    padding-left: 0;
+    padding-right: 0;
+   }
+
+    
